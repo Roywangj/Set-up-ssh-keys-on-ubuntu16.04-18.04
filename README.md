@@ -19,11 +19,24 @@ chmod 700 ~/.ssh
 ~~~
 
 ## 3. 保存私钥
+！ 在保存私钥前，请重新打开终端，确保上一步的chmod生效
+
 请把.ssh/文件夹下载到本地，之后会使用
 
+如果在多台服务器上拥有账户，请把每一台服务器上的私钥保存到本地，并予以区分。
+
 ## 4. ssh登录服务器
+shell命令行登录:
 ~~~shell
 ssh -i RootToid_rsa user@10.106.14.226 # RootToid_rsa是id_rsa(私钥)在本地的路径
+~~~
+
+如果使用vscode,在本地的config设置如下:
+~~~shell
+Host 10.106.14.226
+  HostName 10.106.14.226
+  IdentityFile C:\\Users\\wangjie\\Desktop\\10.106.14.226\\wangjie\\id_rsa
+  User wangjie
 ~~~
 
 @author: Jie Wang & Shenwang Jiang & Yuncheng Wang
