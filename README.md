@@ -1,5 +1,3 @@
-# Set-up-ssh-keys-on-ubuntu16.04-18.04
-How to set up ssh keys on ubuntu16.04&amp;18.04
 #   密钥登录
 各位同学，因前段时间服务器被盗用，实验室决定更换服务器的登录方式，使用密钥进行登录。
 
@@ -7,9 +5,9 @@ How to set up ssh keys on ubuntu16.04&amp;18.04
 进入个人账户后，输入以下命令：
 ~~~shell
 ssh-keygen
-ENTER # 这里是空格，不是输入字符
-ENTER # 这里是空格，不是输入字符
-ENTER # 这里是空格，不是输入字符
+ENTER # 这里是回车，不是输入字符
+ENTER # 这里是回车，不是输入字符
+ENTER # 这里是回车，不是输入字符
 ~~~
 
 ## 2. 安装公钥
@@ -28,6 +26,6 @@ chmod 700 ~/.ssh
 ssh -i RootToid_rsa user@10.106.14.226 # RootToid_rsa是id_rsa(私钥)在本地的路径
 ~~~
 
-@author: Jie Wang & Shenwang Jiang
+@author: Jie Wang & Shenwang Jiang & Yuncheng Wang
 
 Email: jwang991020@gmail.com
