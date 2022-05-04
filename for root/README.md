@@ -6,9 +6,9 @@
 ~~~shell
 su user
 ssh-keygen
-ENTER # 这里是空格，不是输入字符
-ENTER # 这里是空格，不是输入字符
-ENTER # 这里是空格，不是输入字符
+ENTER # 这里是回车，不是输入字符
+ENTER # 这里是回车，不是输入字符
+ENTER # 这里是回车，不是输入字符
 ~~~
 
 ## 2. 安装公钥
@@ -45,6 +45,6 @@ PasswordAuthentication no
 ~~~
 
 
-@author: Jie Wang & Shenwang Jiang
+@author: Jie Wang & Shenwang Jiang & Yuncheng Wang
 
 Email: jwang991020@gmail.com
